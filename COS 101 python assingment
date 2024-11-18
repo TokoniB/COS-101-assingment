@@ -1,0 +1,35 @@
+def a():
+   # velocity=("distance/time")
+   distance=int(input("what is the distance covered?"))
+   int(input("what is the time?"))
+   print(distance*time)
+
+def b() :
+   # newtons_second_law(mass, acceleration):
+    int(input(mass * acceleration))
+    print(f"Newton's Second Law (Force): F = (newtons_second_law(mass, acceleration) N")
+
+def c():
+   # kinematic_equation(initial_velocity, time, acceleration):
+    int(input(initial_velocity * time + 0.5 * acceleration * time))
+    print(f"Kinematic Equation (Displacement): d = (kinematic_equation(initial_velocity, time, acceleration) m")
+
+def d():
+   # ohms_law(current, resistance):
+    int(input(current * resistance))
+    print(f"Ohm's Law (Voltage): V = (ohms_law(current, resistance) V")
+
+def e():
+   # gravitational_potential_energy(mass, height, gravity=9.81):
+    int(input(mass * height))
+    print(f"Gravitational Potential Energy: PE = (gravitational_potential_energy(mass, height) J")
+
+# Test values
+mass = 10  # kg
+acceleration = 5  # m/s^2
+initial_velocity = 0  # m/s
+time = 2  # seconds
+current = 3  # A
+resistance = 4  # Ohms
+height = 5  # m
+velocity = 10  # m/s
